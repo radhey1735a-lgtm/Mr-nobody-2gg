@@ -4,11 +4,11 @@ from os import environ
 # API Configuration
 API_ID = int(os.environ.get("API_ID", "24962099"))
 API_HASH = os.environ.get("API_HASH", "483dda200f05eebfa9dcb5edde5467b5")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8258956623:AAEB0gmtihMHOZt-X1sv92Im064kvi5Hxm8")
 
 CREDIT = os.environ.get("CREDIT", "〱ＵＧ▕")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "UGxPRO")
+DATABASE_NAME = os.environ.get("DATABASE_NAME","Cluster0")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://marco32451_db_user:marco32451_db_user@cluster0.ye1fbhi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_URL = DATABASE_URL  # For auth system
 
